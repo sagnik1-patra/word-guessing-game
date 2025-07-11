@@ -1,0 +1,74 @@
+body {
+    background: #f0f4f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    width: 350px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#hint {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.word-display {
+    font-size: 24px;
+    letter-spacing: 8px;
+    margin: 20px 0;
+}
+
+#letterInput {
+    padding: 10px;
+    font-size: 18px;
+    width: 80%;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+#letterInput:focus {
+    border-color: #007bff;
+}
+
+#resetBtn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#resetBtn:hover {
+    background: #0056b3;
+}
+
+.message {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #ff3333;
+}
+
+.guessed-letters {
+    margin-top: 10px;
+    color: #444;
+}
